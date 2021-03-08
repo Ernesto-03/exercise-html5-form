@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="card border mb-3">
+
+
+            <div class="card-header bg-transparent-secondary">
+                <h3>Payment form example</h3>
+            </div>
+
+
+            <div class="card-body">
+                
+                <div class="alert alert-danger" role="alert">
+                    Some fields are missing
+                </div>
+
+                <div class="row g-3">
+                    <div class="col-sm-5">
+                        <span class="card-text">Card #</span>
+                        <input type="text" class="form-control" placeholder="XXXXXXX" aria-label="Card">
+                    </div>
+                    <div class="col-sm-3">
+                        <span class="card-text">CVC #</span>
+                        <input type="text" class="form-control" placeholder="00000" aria-label="CVC">
+                    </div>
+                    <div class="col-sm">
+                        <span class="card-text">Amount</span>
+                        <input type="text" class="form-control" placeholder="$" aria-label="Amount">
+                    </div>
+                </div>
+
+                <form class="row g-3">
+                    <div class="col-md-6">
+                        <label for="validationDefault01" class="form-label">First name</label>
+                        <input type="text" class="form-control" id="validationDefault01" value="" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefault02" class="form-label">Last name</label>
+                        <input type="text" class="form-control" id="validationDefault02" value="" required>
+                    </div>
+                    <div class="col-md-6">
+                        <label for="validationDefault03" class="form-label">City</label>
+                        <input type="text" class="form-control" id="validationDefault03" required>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationDefault04" class="form-label">State</label>
+                        <select class="form-select" id="validationDefault04" required>
+                            <option selected disabled value="">Pick a state</option>
+                            <option>...</option>
+                        </select>
+                    </div>
+                    <div class="col-md-3">
+                        <label for="validationDefault05" class="form-label">Postal Code</label>
+                        <input type="text" class="form-control" id="validationDefault05" required>
+                    </div>
+                </form>
+
+                <div class="row g-3">
+                    <p class="text-dark">We accept:</p>
+                    <div class="col-md-3 text-center pt-2 rounded" style="background-color: rgb(112, 110, 110); height: 40px;">
+                        <div class="form-check form-check-inline"> 
+                            
+                            <input type="radio"><i class="fab fa-cc-mastercard" style="color: white;"></i>
+                            
+                            <input type="radio"><i class="fab fa-cc-visa" style="color: white;"></i>
+                                                 
+                            <input type="radio"><i class="fab fa-cc-diners-club" style="color: white;"></i>
+                            
+                            <input type="radio"><i class="fab fa-cc-amex" style="color: white;"></i>
+
+                        </div>
+                    </div>
+                            
+                    <div class="col-md-3">
+                        <input type="text" class="form-control border border-white" id="validationDefault05" required>
+                    </div>
+                    
+                    <div class="col-sm-6">
+                        <label for="exampleFormControlTextarea1" class="form-label">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <small>Add any notes here.</small>
+                    </div>
+                </div>
+            </div>
+                    
+                    
+            <div class="card-footer bg-transparent-secondary">
+                <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                    <button class="btn btn-secondary me-md-2" type="button">Cancel</button>
+                    <button class="btn btn-primary" type="button">Send</button>
+                </div>
+            </div> 
+                    
+        </div>
+            
+    </div>
+        
+        
+
+        
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0"
+        crossorigin="anonymous"></script>
+
+
+</body>
+
+</html>
